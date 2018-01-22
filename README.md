@@ -1,1 +1,1 @@
-+# nicholasvik.com
+nicholasvik.com
