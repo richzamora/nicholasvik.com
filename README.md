@@ -1,37 +1,184 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <title>Nick Vik|Director, Screenwriter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family:"Raleway", sans-serif
+        }
+        body, html {
+            height: 100%;
+            line-height: 1.8;
+        }
+        /* Full height image header */
+    </style>
+    <body>
+         <div class="w3-container" style="padding:128px 16px" id="about">
+             <h3 class="w3-center">Featured Work</h3>
+            <iframe width=100% height=80% src="https://www.youtube.com/embed/0Plk8cmvqO8" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+                </div>
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-bar w3-white w3-card" id="myNavbar">
+                 <a href="#home" class="w3-bar-item w3-button w3-wide">Nick Vik</a>
+                <!-- Right-sided navbar links -->
+                <div class="w3-right w3-hide-small">
+                     <a href="#about" class="w3-bar-item w3-button">BIO</a>
+                     <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-film" aria-hidden="true"></i> Comedic Short Films</a>
+                     <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-television" aria-hidden="true"></i> Dramatic Short Films</a>
+                     <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-music" aria-hidden="true"></i> Early Work</a>
+                     <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+                </div>
+                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-You can use the [editor on GitHub](https://github.com/richzamora/nicholasvik.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+                     <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <!-- Sidebar on small screens when clicking the menu icon -->
+        <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+             <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+             <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">BIO</a>
+             <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Comdeic Shorts</a>
+             <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">Dramatic Shorts</a>
+             <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Early Work</a>
+             <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+        </nav>
 
-### Markdown
+        <!-- Header with full-height image -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+        <!-- About Section -->
+        <div class="w3-container" style="padding:128px 16px" id="about">
+             <h3 class="w3-center">Dramatic Shorts</h3>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jcw7jBTNHEk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+        <!-- Work Section -->
+        <div class="w3-container" style="padding:128px 16px" id="work">
+             <h3 class="w3-center">Comedic</h3>
+            <p class="w3-center w3-large">Bringing the laughs</p>
 
-1. Numbered
-2. List
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div class="w3-col l3 m6">
+                    <iframe width=80% height=80% src="https://www.youtube.com/embed/2JmQWjaJb3I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
 
-**Bold** and _Italic_ and `Code` text
+                <div class="w3-col l3 m6">
+                    <img src="/w3images/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+                </div>
+            </div>
 
-[Link](url) and ![Image](src)
-```
+            <div class="w3-row-padding w3-section">
+                <div class="w3-col l3 m6">
+                    <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+                </div>
+            </div>
+        </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+        <!-- Contact Section -->
+        <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+             <h3 class="w3-center">CONTACT</h3>
+            <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+            <div class="w3-row-padding" style="margin-top:64px">
+                <div class="w3-half">
+                    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> San Francisco, CA , US</p>
+                    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: xxxxxxxx</p>
+                    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+                    <br>
+                    <form action="/action_page.php" target="_blank">
+                        <p>
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </p>
+                        <p>
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </p>
+                        <p>
+                            <input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject">
+                        </p>
+                        <p>
+                            <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                        </p>
+                        <p>
+                            <button class="w3-button w3-black" type="submit">
+                                 <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                            </button>
+                        </p>
+                    </form>
+                </div>
+                <div class="w3-half">
+                    <!-- Add Google Maps -->
+                    <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+                </div>
+            </div>
+        </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/richzamora/nicholasvik.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-64">
+             <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+            <div class="w3-xlarge w3-section">
+                 <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                 <i class="fa fa-instagram w3-hover-opacity"></i>
+                 <i class="fa fa-snapchat w3-hover-opacity"></i>
+                 <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                 <i class="fa fa-twitter w3-hover-opacity"></i>
+                 <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>
+            </p>
+        </footer>
 
-### Support or Contact
+        <!-- Add Google Maps -->
+        <script>
+            // Modal Image Gallery
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+
+
+             // Toggle between showing and hiding the sidebar when clicking the menu icon
+            var mySidebar = document.getElementById("mySidebar");
+
+            function w3_open() {
+                if (mySidebar.style.display === 'block') {
+                    mySidebar.style.display = 'none';
+                } else {
+                    mySidebar.style.display = 'block';
+                }
+            }
+
+             // Close the sidebar with the close button
+
+            function w3_close() {
+                mySidebar.style.display = "none";
+            }
+        </script>
+       
+
+    </body>
+
+</html>
